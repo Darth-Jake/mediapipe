@@ -423,7 +423,7 @@ setuptools.setup(
     long_description=_get_long_description(),
     long_description_content_type='text/markdown',
     packages=setuptools.find_packages(exclude=['mediapipe.examples.desktop.*']),
-    install_requires=_parse_requirements('requirements.txt'),
+    #install_requires=_parse_requirements('requirements.txt'),
     cmdclass={
         'build': Build,
         'gen_protos': GeneratePyProtos,
